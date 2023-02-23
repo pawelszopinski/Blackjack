@@ -12,9 +12,23 @@ body {
 #message-el {
     font-style: italic;
 }
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
 #start-el {
     width: 150px;
     background-color: goldenrod;
     color: #fff;     
     text-transform: uppercase;
+    padding: 5px 0px;
+}
+#new-el {
+    width: 150px;
+    background-color: goldenrod;
+    color: #fff;     
+    text-transform: uppercase;
+    padding: 5px 0px;
 }
